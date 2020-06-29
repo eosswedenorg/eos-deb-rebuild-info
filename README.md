@@ -14,6 +14,8 @@ The following chains are supported:
 
 * `uos` - U°OS Chain - [ [Node software](https://github.com/UOSnetwork/uos) ]
 
+* `fio` - [ [Node software](https://github.com/fioprotocol/fio), [Contract Development Toolkit](https://github.com/fioprotocol/fio.cdt) ]
+
 ## Install/Uninstall
 
 run `make install` or `make uninstall`
