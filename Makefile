@@ -10,7 +10,7 @@ uninstall :
 
 # Files
 $(INSTALLDIR)/% : %
-	mkdir -p $(dir $@) && cp $< $(INSTALLDIR)/$(notdir $@)
+	install -D -p -m 644 $< $(INSTALLDIR)/$(notdir $@)
 
 deb:
 	export PACKAGE_NAME="$(NAME)" \
