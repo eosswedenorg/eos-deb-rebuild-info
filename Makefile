@@ -1,6 +1,6 @@
 NAME 		= eos-deb-rebuild-info
 PREFIX 		= /usr/local
-INSTALLDIR 	= $(PREFIX)/share/eos-deb-rebuild
+INSTALLDIR 	= $(PREFIX)/share/eos-deb-rebuild-info
 FILES	    = $(shell find info -type f)
 
 install : $(addprefix $(INSTALLDIR)/,$(FILES))
@@ -10,7 +10,7 @@ uninstall :
 
 # Files
 $(INSTALLDIR)/% : %
-	mkdir -p $(dir $@) && cp $< $@
+	mkdir -p $(dir $@) && cp $< $(INSTALLDIR)/$(notdir $@)
 
 deb:
 	export PACKAGE_NAME="$(NAME)" \

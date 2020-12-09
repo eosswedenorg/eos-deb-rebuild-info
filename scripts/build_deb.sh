@@ -29,8 +29,8 @@ cat ${BASE_DIR}/${PACKAGE_TMPDIR}/DEBIAN/control
 
 # Copy all files
 for file in ${PACKAGE_FILES}; do
-	mkdir -p ${BASE_DIR}/${PACKAGE_TMPDIR}/${PACKAGE_INSTALLDIR}/$(dirname ${file})
-	cp ${BASE_DIR}/../$file ${BASE_DIR}/${PACKAGE_TMPDIR}/${PACKAGE_INSTALLDIR}/${file}
+	mkdir -p ${BASE_DIR}/${PACKAGE_TMPDIR}/${PACKAGE_INSTALLDIR}
+	cp ${BASE_DIR}/../$file ${BASE_DIR}/${PACKAGE_TMPDIR}/${PACKAGE_INSTALLDIR}/$(basename ${file})
 done
 
 fakeroot dpkg-deb --build ${BASE_DIR}/${PACKAGE_TMPDIR} ${BASE_DIR}/${PACKAGE_FULLNAME}.deb
