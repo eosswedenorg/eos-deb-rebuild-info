@@ -1,3 +1,4 @@
+Package: fio.cdt
 Conflicts: eosio.cdt, bos.cdt, wax.cdt
 Description: Toolchain and supporting tools for the FIO platform
 Homepage: https://github.com/fioprotocol/fio.cdt

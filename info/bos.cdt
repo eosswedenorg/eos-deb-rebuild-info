@@ -1,3 +1,4 @@
+Package: bos.cdt
 Conflicts: eosio.cdt, fio.cdt, wax.cdt
 Description: Toolchain and supporting tools for the BOS platform
 Homepage: https://github.com/boscore/bos.cdt
