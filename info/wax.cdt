@@ -1,4 +1,4 @@
-Conflicts: eosio.cdt
+Conflicts: eosio.cdt, bos.cdt, fio.cdt
 Description: Toolchain and supporting tools for the WAX platform
 Homepage: https://github.com/worldwide-asset-exchange/wax-cdt
 Maintainer: WAX Team
