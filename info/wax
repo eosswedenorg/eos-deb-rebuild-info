@@ -1,5 +1,5 @@
 Package: wax
-Conflicts: eosio, bos, uos, fio
+Conflicts: eosio, bos, uos, fio, mandel
 Description: Software for the WAX network
 Homepage: https://github.com/worldwide-asset-exchange/wax-blockchain
 Maintainer: WAX Team

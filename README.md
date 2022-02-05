@@ -16,6 +16,8 @@ The following chains are supported:
 
 * `fio` - [ [Node software](https://github.com/fioprotocol/fio), [Contract Development Toolkit](https://github.com/fioprotocol/fio.cdt) ]
 
+* `mandel` - Eosio fork [ [Node software](https://github.com/eosnetworkfoundation/mandel) ]
+
 ## Install/Uninstall
 
 run `make install` or `make uninstall`

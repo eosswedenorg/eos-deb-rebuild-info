@@ -1,0 +1,5 @@
+Package: mandel
+Conflicts: eosio, bos, uos, fio, wax
+Description: The mandel fork of EOSIO
+Homepage: https://github.com/eosnetworkfoundation/mandel
+Maintainer: EOS Network Foundation
