@@ -1,5 +1,5 @@
 Package: bos
-Conflicts: eosio, wax, uos, fio, mandel, wax-mandel
+Conflicts: eosio, leap uos, fio, mandel, wax, wax-mandel, wax-leap
 Description: Software for the BOS network
 Homepage: https://github.com/boscore/bos
 Maintainer: support@boscore.io
