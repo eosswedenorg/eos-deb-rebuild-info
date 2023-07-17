@@ -14,7 +14,7 @@ $(INSTALLDIR)/% : %
 
 deb:
 	export PACKAGE_NAME="$(NAME)" \
-	export PACKAGE_VERSION="1.0.3" \
+	export PACKAGE_VERSION="1.0.4" \
 	export PACKAGE_FILES="$(FILES)" \
 	export PACKAGE_INSTALLDIR=$(INSTALLDIR:/%=%) \
 	&& ./scripts/build_deb.sh
