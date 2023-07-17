@@ -1,5 +1,5 @@
 NAME 		= eos-deb-rebuild-info
-PREFIX 		= /usr/local
+PREFIX 		= /usr
 INSTALLDIR 	= $(PREFIX)/share/eos-deb-rebuild-info
 FILES		= $(shell find info -type f) README.md
 
