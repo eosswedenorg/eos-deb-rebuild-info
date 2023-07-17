@@ -4,11 +4,15 @@ This repo contains information files for the [eos-deb-rebuild](https://github.co
 
 The following chains are supported:
 
-* `eos` (*default*) - EOS Mainnet - [ [Node software](https://github.com/eosio/eos), [Contract Development Toolkit](https://github.com/eosio/eosio.cdt) ]
+* `leap` (*default*) - AntelopeIO - [ [Node software](https://github.com/AntelopeIO/leap), [Contract Development Toolkit](https://github.com/AntelopeIO/cdt) ]
 
-* `wax` - Worldwide Asset eXchange Chain - [ [Node software](https://github.com/worldwide-asset-exchange/wax-blockchain), [Contract Development Toolkit](https://github.com/worldwide-asset-exchange/wax-cdt) ]
+* `eos` - EOS Mainnet - [ [Node software](https://github.com/eosio/eos), [Contract Development Toolkit](https://github.com/eosio/eosio.cdt) ]
 
-* `cc32-wax-mandel` - cc32d9's Fork of WAX + mandel [ [Node software](https://github.com/cc32d9/wax-mandel) ]
+* `wax` - Worldwide Asset eXchange Chain - [ [Node software](https://github.com/worldwide-asset-exchange/wax-leap), [Contract Development Toolkit](https://github.com/worldwide-asset-exchange/wax-cdt) ]
+
+* `wax-leap` - Worldwide Asset eXchange Chain - [ [Node software](https://github.com/cc32d9/wax-leap), [Contract Development Toolkit](https://github.com/worldwide-asset-exchange/wax-cdt) ]
+
+* `wax-mandel` - cc32d9's Fork of WAX + mandel [ [Node software](https://github.com/cc32d9/wax-mandel) ]
 
 * `daobet` - DAObet Chain - [ [Node software](https://github.com/DaoCasino/DAObet) ]
 
