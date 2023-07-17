@@ -1,7 +1,7 @@
 NAME 		= eos-deb-rebuild-info
 PREFIX 		= /usr/local
 INSTALLDIR 	= $(PREFIX)/share/eos-deb-rebuild-info
-FILES	    = $(shell find info -type f) README.md
+FILES		= $(shell find info -type f) README.md
 
 install : $(addprefix $(INSTALLDIR)/,$(FILES))
 
