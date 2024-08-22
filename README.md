@@ -6,6 +6,9 @@ The following chains are supported:
 
 * `leap` (*default*) - AntelopeIO - [ [Node software](https://github.com/AntelopeIO/leap), [Contract Development Toolkit](https://github.com/AntelopeIO/cdt) ]
 
+* `spring` - AntelopeIO - [ [Node software](https://github.com/AntelopeIO/spring), [Contract Development Toolkit](https://github.com/AntelopeIO/cdt) ]
+
+
 * `eos` - EOS Mainnet - [ [Node software](https://github.com/eosio/eos), [Contract Development Toolkit](https://github.com/eosio/eosio.cdt) ]
 
 * `wax` - Worldwide Asset eXchange Chain - [ [Node software](https://github.com/worldwide-asset-exchange/wax-leap), [Contract Development Toolkit](https://github.com/worldwide-asset-exchange/wax-cdt) ]
